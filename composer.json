@@ -1,0 +1,29 @@
+{
+  "name": "adaa/service",
+  "description": "Basic Service Provider for AdaaSystem application",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adaa",
+      "email": "info@smart.sd"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Adaa\\Service\\": "src/"
+    },
+    "files": [
+      "helpers/helper.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Adaa\\Service\\AdaaServiceProvider"
+      ]
+    }
+  }
+}
